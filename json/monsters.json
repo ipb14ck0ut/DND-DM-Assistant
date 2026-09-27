@@ -1,0 +1,104 @@
+{
+  "monsters": [
+    {
+      "id": "orc_base",
+      "name": "Orc",
+      "hit_dice": "1",
+      "hp": 14,
+      "attacks": [
+        {
+          "weapon": "Spear",
+          "damage": "1d6",
+          "type": "melee_or_ranged"
+        },
+        {
+          "weapon": "Curved Sword",
+          "damage": "1d8",
+          "type": "melee"
+        }
+      ],
+      "saving_throw": 17,
+      "movement": 12,
+      "alignment": "Chaos",
+      "challenge_rating": 1,
+      "xp_value": 15
+    }
+    ,{
+      "id": "elf_base",
+      "name": "Elf",
+      "hit_dice": "1",
+      "hp": 14,
+      "attacks": [
+        {
+          "weapon": "2 arrows",
+          "damage": "1d6",
+          "type": "ranged"
+        },
+        {
+          "weapon": "Sword",
+          "damage": "1d8",
+          "type": "melee"
+        }
+      ],
+      "saving_throw": 17,
+      "movement": 12,
+      "alignment": "netural",
+      "challenge_rating": 1,
+      "xp_value": 15
+    }
+    ,{
+      "id": "Basilisk_base",
+      "name": "Basilisk",
+      "hit_dice": "6",
+      "hp": 15,
+      "attacks": [
+        {
+          "weapon": "bite",
+          "damage": "2d6",
+          "type": "melee"
+        }
+      ],
+      "saving_throw": 11,
+      "movement": 12,
+      "alignment": "netural",
+      "challenge_rating": 8,
+      "xp_value": 800
+    }
+    ,{
+      "id": "nightmare_base",
+      "name": "nightmare_base",
+      "hit_dice": "4",
+      "hp": 16,
+      "attacks": [
+        {
+          "weapon": "touch",
+          "damage": "1d6",
+          "type": "melee"
+        }
+      ],
+      "saving_throw": 13,
+      "movement": 8,
+      "alignment": "Chaos",
+      "challenge_rating": 6,
+      "xp_value": 400
+    }
+    ,{
+      "id": "human_soldier_base",
+      "name": "human soldier",
+      "hit_dice": "1",
+      "hp": 12,
+      "attacks": [
+        {
+          "weapon": "weapon",
+          "damage": "1d8",
+          "type": "melee"
+        }
+      ],
+      "saving_throw": 17,
+      "movement": 12,
+      "alignment": "netural",
+      "challenge_rating": 1,
+      "xp_value": 15
+    }
+  ]
+}
